@@ -68,7 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\Bomb.cs" />
+    <Compile Include="Model\Bomberman.cs" />
     <Compile Include="Model\Box.cs" />
+    <Compile Include="Model\GameTime.cs" />
     <Compile Include="Model\Monster.cs" />
     <Compile Include="Model\Wall.cs" />
     <Compile Include="Model\World.cs" />
