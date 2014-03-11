@@ -25,4 +25,15 @@ namespace Bomberman
             InitializeComponent();
         }
     }
+     enum CellContent
+     {
+         None,
+         Ground,
+         IndestructibleWall,
+         DestructibleWall,
+         Bomb,
+         Monster,
+         Bomberman
+     }
+
 }
