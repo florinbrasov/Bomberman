@@ -14,7 +14,7 @@ namespace Bomberman.Model
             //TODO: Interfata IWalk
         }
 
-        public void Destroy
+        public void Destroy()
         {
             //TODO: Implement
             //TODO: Interfata IDistroy
