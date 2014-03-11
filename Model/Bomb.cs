@@ -10,7 +10,7 @@ namespace Bomberman.Model
     class Bomb:WorldItem
     {
         public double TimeUntilExplosion { get; set; }
-        public Point InfluenceZone { get; set; }
+        public Size InfluenceZone { get; set; }
         public void Explosde()
         {
             //TODO: implement
