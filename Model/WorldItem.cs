@@ -8,7 +8,6 @@ namespace Bomberman.Model
 {
     class WorldItem
     {
-        public Point LocationOnCanvas { get; set; }
         public WorldCell LocationOnWorld { get; set; }
         public World World { get; set; }
         public  void Update()
