@@ -9,7 +9,7 @@ namespace Bomberman.Model
 {
     class World
     {
-        private WorldCell[][] cell;
+        private WorldItem[][] cell;
         public Size size { get; set; }//TODO de ce e de tip point? Nu trb sa fie un integer?
         public void LoadGame(Uri filePath)
         {
